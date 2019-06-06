@@ -10,11 +10,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
-#print("Enter facebook email id: ")
-#email = str(input())
-#password = getpass.getpass("Enter facebook password: ")
-email='7557078998'
-password='LocalHost128'
+print("Enter facebook email id: ")
+email = str(input())
+password = getpass.getpass("Enter facebook password: ")
+
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
